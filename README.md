@@ -12,11 +12,11 @@ This project implements a synchronized Multi-Speed Large-Scale Ring Display acro
 
 ## Files Included
 * DE0_TOP.v: Top-level module and I/O mapping.
-* ring_controller.v: State machine and timing management.
-* clk_divider.v: Frequency scaling pulse generator.
+* ring_controller.v: Timing logic and 12-step state machine.
+* ring_driver.v: Large ring path decoder for 7-segment displays.
 * DE0_TOP.qpf: Quartus Project File.
-* DE0_TOP.qsf: Quartus Settings File (Pin Assignments).
-* DE0_TOP.sdc: Synopsys Design Constraints (Clock definitions).
+* DE0_TOP.qsf: Quartus Settings File.
+* DE0_TOP.sdc: Synopsys Design Constraints.
 
 ## Notice & License
 * Academic Integrity: For reference only. Direct copying is not recommended for academic integrity.
