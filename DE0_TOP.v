@@ -2,11 +2,45 @@
 // Copyright (c) 2009 by Terasic Technologies Inc. 
 // --------------------------------------------------------------------
 //
-// Major Functions:	DE0 TOP - TKUECE Lab Practice
-// Description: Multi-Speed Large-Scale Ring Display Implementation
-// Author: TSENG SHENG YU (Noah)
+// Permission:
+//
+//   Terasic grants permission to use and modify this code for use
+//   in synthesis for all Terasic Development Boards and Altera Development 
+//   Kits made by Terasic.  Other use of this code, including the selling 
+//   ,duplication, or modification of any portion is strictly prohibited.
+//
+// Disclaimer:
+//
+//   This VHDL/Verilog or C/C++ source code is intended as a design reference
+//   which illustrates how these types of functions can be implemented.
+//   It is the user's responsibility to verify their design for
+//   consistency and functionality through the use of formal
+//   verification methods.  Terasic provides no warranty regarding the use 
+//   or functionality of this code.
+//
 // --------------------------------------------------------------------
-
+//           
+//                     Terasic Technologies Inc
+//                     356 Fu-Shin E. Rd Sec. 1. JhuBei City,
+//                     HsinChu County, Taiwan
+//                     302
+//
+//                     web: http://www.terasic.com/
+//                     email: support@terasic.com
+//
+// --------------------------------------------------------------------
+//
+// Major Functions:	DE0 TOP
+//
+// --------------------------------------------------------------------
+//
+// Revision History :
+// --------------------------------------------------------------------
+//  Ver  :| Author            :| Mod. Date :| Changes Made:
+//  1.0  :| TSENG SHENG YU    :| 2026/04/29:| Initial design for large-scale ring display.
+//  1.1  :| TSENG SHENG YU    :| 2026/04/29:| Integrated modular controller/driver and 
+//                                          verified 1kHz speed mode.
+// --------------------------------------------------------------------
 module DE0_TOP
 	(
 		////////////////////	Clock Input	 	////////////////////	 
